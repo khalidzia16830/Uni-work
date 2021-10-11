@@ -1,0 +1,38 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int grades, marks;
+    cout << "Enter your Marks: ";
+    cin>> marks;
+    if(marks<60)
+    {
+     cout << "you considered as fail!";
+    }
+    if(marks >= 60 && marks<=67)
+          {
+            cout << "Your grade of the ocurse is C \n";
+                }
+   if(marks >=68 && marks<=73)
+          {
+            cout << "Your grade of the course ic c+";
+             }
+   if(marks >=74 && marks<=80)
+          {
+            cout << "your grade of the course is B";
+                 }
+   if(marks >=81 && marks<= 85)
+          {
+            cout << "your grade of the course is B+";
+                 }
+   if(marks >=86 && marks<=100)
+          {
+            cout << "your grade of the course is A";
+                 } else{ 
+          cout << "\n You enter invalid Entry!";
+       }
+    return 0;
+}
